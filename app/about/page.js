@@ -14,10 +14,10 @@ export default function About() {
             <div className="w-full md:w-2/3 flex flex-col justify-center ">
               <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">About Me</h1>
               <p className="text-gray-600 dark:text-gray-50 text-lg mb-4">
-                Hello! I'm Sarthak Agrawal, a passionate web developer and student. I created this website to help Class 11 Commerce students with free, easy-to-understand notes for every chapter. My goal is to make learning simpler and more accessible for everyone.
+                Hello! I&apos;m Sarthak Agrawal, a passionate web developer and student. I created this website to help Class 11 Commerce students with free, easy-to-understand notes for every chapter. My goal is to make learning simpler and more accessible for everyone.
               </p>
               <p className="text-gray-600 dark:text-gray-50 text-lg">
-                Whether you're just starting out or looking to sharpen your skills, you'll find a variety of resources and insights here. Let's explore the world of programming together!
+                Whether you&apos;re just starting out or looking to sharpen your skills, you'll find a variety of resources and insights here. Let&apos;s explore the world of programming together!
               </p>
             </div>
           </div>
@@ -27,9 +27,9 @@ export default function About() {
       <section className="py-16 bg-gray-50 dark:bg-gray-800 dark:text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">Sarthak's Journey as a Creator</h2>
+            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">Sarthak&apos;s Journey as a Creator</h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-50">
-              From a student with a vision to a helpful resource builder, here's how Sarthak created a platform for learners.
+              From a student with a vision to a helpful resource builder, here&apos;s how Sarthak created a platform for learners.
             </p>
           </div>
           <div className="space-y-12">
@@ -41,7 +41,7 @@ export default function About() {
                 <div className='mb-8'>
                   <h3 className="text-2xl font-bold text-gray-800 dark:text-white">The Idea Takes Root</h3>
                   <p className="mt-4 text-gray-600 dark:text-gray-50">
-                    Sarthak’s journey began during his own Class 11 studies when he struggled to find well-organized notes online. Inspired to help others, he decided to build a website that would provide clear, reliable, and accessible notes for commerce students.
+                    Sarthak&rsquo;s journey began during his own Class 11 studies when he struggled to find well-organized notes online. Inspired to help others, he decided to build a website that would provide clear, reliable, and accessible notes for commerce students.
                   </p>
                 </div>
                 <br /><br />

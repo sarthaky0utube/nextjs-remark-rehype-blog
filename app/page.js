@@ -46,7 +46,7 @@ export default function Home() {
         </h2>
 
         <p className="mt-6 max-w-2xl text-gray-700 dark:text-gray-300 text-lg">
-          Confused about which subject to start with? We've got you covered! Get
+          Confused about which subject to start with? We&apos;ve got you covered! Get
           simplified chapter-wise notes for Class 11 Commerce students for free.
         </p>
 
