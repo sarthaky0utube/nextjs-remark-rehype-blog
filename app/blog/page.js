@@ -52,7 +52,7 @@ const Blog = () => {
   return (
     <div className="container mx-auto p-4">
       {/* Main heading for the blog section */}
-      <h1 className="text-4xl font-bold mb-8 text-center">Blog</h1>
+      <h1 className="text-4xl font-bold mt-20 mb-20 text-center">Blog</h1>
       
       {/* Grid layout for blog posts */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
