@@ -17,7 +17,7 @@ export default function About() {
                 Hello! I&apos;m Sarthak Agrawal, a passionate web developer and student. I created this website to help Class 11 Commerce students with free, easy-to-understand notes for every chapter. My goal is to make learning simpler and more accessible for everyone.
               </p>
               <p className="text-gray-600 dark:text-gray-50 text-lg">
-                Whether you&apos;re just starting out or looking to sharpen your skills, you'll find a variety of resources and insights here. Let&apos;s explore the world of programming together!
+                Whether you&apos;re just starting out or looking to sharpen your skills, you&apos;ll find a variety of resources and insights here. Let&apos;s explore the world of programming together!
               </p>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function About() {
           <div className="space-y-12">
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/3">
-                <img src="/3.png" alt="Sarthak getting the idea" className="w-full rounded-lg shadow-lg" />
+                <Image src="/3.png" alt="Sarthak getting the idea" width={500} height={500} className="w-full rounded-lg shadow-lg" />
               </div>
               <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
                 <div className='mb-8'>
@@ -56,7 +56,7 @@ export default function About() {
 
             <div className="flex flex-col md:flex-row-reverse items-center">
               <div className="md:w-1/3">
-                <img src="/1.png" alt="Sarthak learning to code" className="w-full rounded-lg shadow-lg" />
+                <Image src="/1.png" alt="Sarthak learning to code" width={500} height={500} className="w-full rounded-lg shadow-lg" />
               </div>
               <div className="md:w-2/3 md:pr-8 mt-8 md:mt-0">
                 <div className='mb-8'>

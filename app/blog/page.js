@@ -1,4 +1,5 @@
-import React from 'react';  
+import React from 'react';
+import Image from 'next/image';
 import { buttonVariants } from '@/components/ui/button';
 import Link from 'next/link';
 import fs from "fs";
@@ -59,7 +60,7 @@ const Blog = () => {
         {blogs.map((blog, index) => (
           <div key={index} className="rounded-lg shadow-md overflow-hidden  dark:border-2">
             {/* Blog post image */}
-            <img src={blog.image} alt={blog.title} className="w-full h-64 object-cover" />
+            <Image src={blog.image} alt={blog.title} width={500} height={500} className="w-full h-64 object-cover" />
             
             {/* Blog post content */}
             <div className="p-4">
