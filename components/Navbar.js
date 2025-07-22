@@ -78,7 +78,7 @@ const Navbar = () => {
             Blog
           </Link>
           <Link
-            href="/contact.html"
+            href="/contact"
             className="hover:text-primary transition-colors duration-200"
           >
             Contact
@@ -127,7 +127,7 @@ const Navbar = () => {
                       Blog
                     </Link>
                     <Link
-                      href="/contact.html"
+                      href="/contact"
                       className="hover:text-primary transition-colors duration-200"
                     >
                       Contact

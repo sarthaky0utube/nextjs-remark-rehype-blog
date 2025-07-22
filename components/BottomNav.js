@@ -19,7 +19,7 @@ const BottomNav = () => {
           <Rss className="w-6 h-6" />
           <span className="text-xs mt-1">Blog</span>
         </Link>
-        <Link href="/contact.html" className="flex flex-col items-center text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
+        <Link href="/contact" className="flex flex-col items-center text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
           <Mail className="w-6 h-6" />
           <span className="text-xs mt-1">Contact</span>
         </Link>
