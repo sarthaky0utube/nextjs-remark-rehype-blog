@@ -78,14 +78,14 @@ const Navbar = () => {
             Blog
           </Link>
           <Link
-            href="/contact"
+            href="/contact.html"
             className="hover:text-primary transition-colors duration-200"
           >
             Contact
           </Link>
           <ModeToggle />
         </div>
-        <div className="md:hidden flex items-center space-x-2 z-1000">
+        <div className="hidden">
           <ModeToggle />
           <Sheet className="[z-999]">
             <SheetTrigger>
@@ -127,7 +127,7 @@ const Navbar = () => {
                       Blog
                     </Link>
                     <Link
-                      href="/contact"
+                      href="/contact.html"
                       className="hover:text-primary transition-colors duration-200"
                     >
                       Contact
